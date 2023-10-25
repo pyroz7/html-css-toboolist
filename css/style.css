@@ -4,11 +4,52 @@
     box-sizing: border-box
 }
 body {
-    background-color: antiquewhite;
+    background-color: rgba(235, 235, 235, 0.936);
 }
 
 header {
     height: 70px;
 padding-top: 10px;
 margin-bottom: 30px;
-background-color: white;}
+background-color: rgb(255, 255, 255);
+      }
+
+
+
+.logo{
+    padding-left: 13px;
+    vertical-align: middle;
+}
+
+.titolo{
+    display: inline;
+    vertical-align: middle;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 37px;
+
+}
+
+.box{
+margin: auto;
+background-color: aliceblue;
+height: 480px;
+width: 950px;
+
+}
+
+.pulsanti{
+    padding: 20px 40px;
+}
+
+.bottone {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid;    
+}
+
+
+.task{
+    
+}
