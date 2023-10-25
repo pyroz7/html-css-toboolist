@@ -7,7 +7,7 @@
   /*Background colori e allineamento titolo al logo*/
   
 body {
-    background-color: rgba(235, 235, 235, 0.936);
+    background-color: #F6F8F9
 }
 
 header {
@@ -86,6 +86,8 @@ hr{
     margin:8px
 }
 
+/*Inserimento parametri cerchi*/
+
 .cerchio {
     display: inline-block;
     width: 15px;
@@ -95,4 +97,85 @@ border-radius: 50%;
 line-height: 15px;
 font-size: 10px;
 text-align: center;
+}
+
+.v {
+    border:1px solid; color: green;
+    
+}
+
+.x{
+    border: 1px solid; color: red;
+}
+
+/*Inserimento colori luce*/
+
+.blu {
+    margin-left: 8px;
+    font-size: small;
+    color: white;
+    background-color: rgba(73, 73, 255, 0.886);
+    border-radius: 30%;
+    display: inline;
+    
+}
+
+.viola {
+    margin-left: 8px;
+    font-size: small;
+    color: white;
+    background-color: purple;
+    border-radius: 30%;
+    display: inline;
+}
+
+.verde{
+    margin-left: 8px;
+    font-size: small;
+    color: white;
+    background-color: green;
+    border-radius: 30%;
+    display: inline;
+
+}
+
+.arancione{
+    margin-left: 8px;
+    font-size: small;
+    color: white;
+    background-color: orange;
+    border-radius: 30%;
+    display: inline;
+
+}
+
+
+.rosa {
+    margin-left: 8px;
+    font-size: small;
+    color: white;
+    background-color: rgb(239, 90, 115);
+    border-radius: 30%;
+    display: inline;
+
+}
+
+.verde {
+    margin-left: 8px;
+    font-size: small;
+    color: white;
+    background-color: green ;
+    border-radius: 30%;
+    display: inline;
+
+}
+
+.celeste {
+    margin-left: 8px;
+    font-size: small;
+    color: white;
+    background-color: rgb(67, 0, 235) ;
+    border-radius: 30%;
+    display: inline;
+
 }
