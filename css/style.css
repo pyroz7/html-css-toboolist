@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box
 }
+ 
+  /*Background colori e allineamento titolo al logo*/
+  
 body {
     background-color: rgba(235, 235, 235, 0.936);
 }
@@ -16,12 +19,12 @@ background-color: rgb(255, 255, 255);
 
 
 
-.logo{
+.logo {
     padding-left: 13px;
     vertical-align: middle;
 }
 
-.titolo{
+.titolo {
     display: inline;
     vertical-align: middle;
     font-family: Arial;
@@ -30,7 +33,9 @@ background-color: rgb(255, 255, 255);
 
 }
 
-.box{
+
+/*Creazione box al centro della pagina e aggiunta pulsanti*/
+.box {
 margin: auto;
 background-color: aliceblue;
 height: 480px;
@@ -38,7 +43,7 @@ width: 950px;
 
 }
 
-.pulsanti{
+.pulsanti {
     padding: 20px 40px;
 }
 
@@ -50,6 +55,44 @@ width: 950px;
 }
 
 
-.task{
-    
+.task {
+    background-color: rgb(79, 79, 231);
+    font-style: italic;
+}
+
+
+.section {
+    background-color: white;
+    font-style: italic;
+}
+
+
+hr{
+    border: 1px ridge ;
+}
+
+/*Inserimento parametri per la lista*/
+
+.lista {
+    margin: 30px 40px;
+}
+
+.lista ul {
+ list-style: none;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista li {
+    margin:8px
+}
+
+.cerchio {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+margin-right: 10px;
+border-radius: 50%;
+line-height: 15px;
+font-size: 10px;
+text-align: center;
 }
